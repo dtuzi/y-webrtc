@@ -134,6 +134,6 @@ server.on('upgrade', (request, socket, head) => {
   wss.handleUpgrade(request, socket, head, handleAuth)
 })
 
-server.listen(port)
+server.listen(port, '0.0.0.0')
 
 console.log('Signaling server running on localhost:', port)
