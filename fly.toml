@@ -1,9 +1,9 @@
-# fly.toml app configuration file generated for y-webrtc-eiger on 2026-02-13T19:28:13Z
+# fly.toml app configuration file generated for y-webrtc-my1lug on 2026-02-13T19:50:03Z
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'y-webrtc-eiger'
+app = 'y-webrtc-my1lug'
 primary_region = 'ams'
 
 [build]
