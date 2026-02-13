@@ -136,4 +136,4 @@ server.on('upgrade', (request, socket, head) => {
 
 server.listen(port, '0.0.0.0')
 
-console.log('Signaling server running on localhost:', port)
+console.log('Signaling server running on 0.0.0.0:', port)
